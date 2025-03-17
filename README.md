@@ -6,11 +6,11 @@
 ![project gif](final.gif)
 
 ## Overview
-This project is a physics-based simulation using Taichi to model a jumping shape composed of multiple rigid bodies connected by springs. The simulation evolved over multiple labs, refining its structure, actuation, and optimization techniques.
+This project is a physics-based simulation using Taichi to model a jumping shape composed of multiple rigid bodies connected by springs. The simulation evolved over multiple labs, refining its structure, actuation, and optimization techniques. The success of the shape is dependent upon how long it stays in the air and the height it reaches.
 
 ## Development Progression
 
-### Lab 2: Rigid Body Skeleton
+### Rigid Body Skeleton
 - Implemented a **wheel-like structure**, where multiple rigid boxes are connected to a central hub using springs.
 - Introduced **procedural spring connections**, allowing elastic movement.
 - Developed core simulation functions:
@@ -19,7 +19,7 @@ This project is a physics-based simulation using Taichi to model a jumping shape
   - `collide()`: Handles ground interactions.
 - Stability was a major focus, with careful tuning of **spring stiffness and damping** to prevent instability.
 
-### Lab 3: Evolutionary Optimization
+### Evolutionary Optimization
 - Introduced **evolutionary optimization** to improve jumping height.
 - Implemented a mutation-based approach:
   1. Start with different numbers of boxes.
@@ -30,7 +30,7 @@ This project is a physics-based simulation using Taichi to model a jumping shape
   - Changing only the number of boxes had a **limited effect** on performance.
   - Future improvements suggested optimizing **spring stiffness and connectivity** instead.
 
-### Lab 4: Actuation and Control
+### Actuation and Control
 - Implemented **open-loop control** using sinusoidal actuation patterns.
 - Applied **predefined oscillations** to springs, improving jump height and duration.
 - Challenges:
@@ -40,7 +40,7 @@ This project is a physics-based simulation using Taichi to model a jumping shape
   - The robot stayed in the air **longer** and **jumped higher** than previous versions.
   - Actuation played a key role in sustaining momentum.
 
-### Final Project: Connecting Outer Boxes
+### Connecting Outer Boxes
 - **New structural connectivity**: Previously, outer boxes were only attached to the center.
 - Added **direct spring connections** between outer boxes, stabilizing the structure.
 - Adjusted **spring stiffness and damping** to prevent instability.
