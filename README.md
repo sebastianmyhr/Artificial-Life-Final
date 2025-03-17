@@ -1,8 +1,8 @@
 # Taichi Jumping Shape Simulation
 
-Author: Sebastian Myhr
-Northwestern University
-CS 302: Artificial Life (Winter 2025)
+- Author: Sebastian Myhr
+- Northwestern University
+- CS 302: Artificial Life (Winter 2025)
 
 ## Overview
 This project is a physics-based simulation using Taichi to model a jumping shape composed of multiple rigid bodies connected by springs. The simulation evolved over multiple labs, refining its structure, actuation, and optimization techniques.
