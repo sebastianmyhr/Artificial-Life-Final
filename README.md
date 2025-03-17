@@ -1,8 +1,9 @@
-# Taichi Jumping Shape Simulation
+# CS 302 Final Project - Rigid Body Jumping Shape
 
 - Author: Sebastian Myhr
-- Northwestern University
-- CS 302: Artificial Life (Winter 2025)
+- Northwestern University, CS 302: Artificial Life (Winter 2025)
+
+![alt text](https://github.com/sebastianmyhr/Artificial-Life-Final/rigid_body/open_loop_control/0031.png?raw=true)
 
 ## Overview
 This project is a physics-based simulation using Taichi to model a jumping shape composed of multiple rigid bodies connected by springs. The simulation evolved over multiple labs, refining its structure, actuation, and optimization techniques.
